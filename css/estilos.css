@@ -39,7 +39,7 @@ body {
 
 .secciones h2 {
     position: relative;
-    left: 550px;
+    text-align: center;
 }
 
 .secciones p {
