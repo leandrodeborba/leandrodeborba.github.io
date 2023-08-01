@@ -39,6 +39,7 @@ body {
 }
 
 .secciones h2 {
+    position: relative;
     text-align: center;
 }
 
@@ -163,6 +164,10 @@ textarea {
 input[type="button"] {
     background-color: #303036;
     color: #fff;
+}
+
+input[type="button"]:disabled {
+    background-color: #9696a1;
 }
 
 input[type="button"]:disabled {
