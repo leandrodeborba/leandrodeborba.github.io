@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+
+}
+
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/23/04/38/computer-3174729_640.jpg);
+    background-size: cover;
+        text-align: justify;
+}
+
+
+#bienvenida {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 300px;
+    font-size: 100px;
+}
+
+.secciones h2 {
+    position: relative;
+    left: 550px;
+}
+
+.secciones p {
+    font-family: 'Courier';
+    color: #FFFAFF;
+    text-align: center;
+}
+
+
+
+
+#cabezal {
+    background-color: #9696a1af;
+    min-height: 200px;
+    left: 500px;
+}
+
+
+#cabezal ul :hover {
+    transform: scale(1.4);
+    color: #ffffff;
+}
+
+
+#contenedor {
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+
+label {
+    min-width: 80px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.duracion {
+    float: right;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+#aux {
+    float: right;
+    clear: right;
+    padding: 0 24px 10px 0;
+
+}
+
+#navPrincipal a {
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#aux a {
+    cursor: pointer;
+    color: #FFFAFF;
+    font-size: 14px;
+}
+
+#navPrincipal {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    max-width: 700px;
+}
+
+#navPrincipal li {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type: none;
+    padding: 5px;
+    margin: 7px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+#contenido {
+    /*width: 590px;*/
+    padding: 20px;
+    float: left;
+}
+
+#contenido img {
+    max-width: 100%;
+    margin-bottom: 1%;
+}
+
+#lateral {
+    background-color: #efefef;
+    width: 290px;
+    float: left;
+    padding: 20px;
+}
+
+#lateral,
+#contenido {
+    min-height: 250px;
+}
+
+#pie {
+    background-color: #9696a1af;
+    clear: both;
+    padding: 20px;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Courier';
+    text-align: center;
+    letter-spacing: 4px;
+}
+#contacto{
+    max-width: 200px;
+    margin:auto;
+    color: #FFFAFF;
+
+}
+
+input[type="button"] {
+    background-color: #303036;
+    color: #fff;
+}
+
+input[type="button"]:disabled {
+    background-color: #9696a1;
+}
