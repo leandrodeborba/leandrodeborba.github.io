@@ -43,7 +43,7 @@ function mostrarSeccion(){
             <textarea placeholder="Ingresa tu mensaje aquí." ></textarea>
             <input type="button" value="Enviar" id="btnMensaje">
         </div>
-            <p>Email:rodriguez-leandro hotmail.com</p>`)
+            <p>Email:contacto.leandro.rodriguez@gmail.com</p>`)
             break;
         case "btnSeccionExperienciaLaboral":
             innerSimple("#seccionExperienciaLaboral",`<h2>Experiencias laborales</h2><hr><p>Hay muchas variaciones 
